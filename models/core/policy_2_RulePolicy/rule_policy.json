@@ -1,0 +1,14 @@
+{
+  "priority": 6,
+  "lookup": {
+    "rules": {},
+    "rules_for_loop_unhappy_path": {
+      "[{\"prev_action\": {\"action_name\": \"utter_suggest\"}}, {\"active_loop\": {\"name\": \"suggestions_form\"}, \"prev_action\": {\"action_name\": \"suggestions_form\"}, \"user\": {\"intent\": \"deny\"}}]": "do_not_predict_loop_action",
+      "[{\"prev_action\": {\"action_name\": \"utter_suggest\"}}, {\"active_loop\": {\"name\": \"suggestions_form\"}, \"prev_action\": {\"action_name\": \"suggestions_form\"}, \"user\": {\"intent\": \"suggestion_intent\"}}]": "do_not_predict_loop_action",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}}, {\"active_loop\": {\"name\": \"user_info_form\"}, \"prev_action\": {\"action_name\": \"user_info_form\"}, \"user\": {\"intent\": \"affirm\"}}]": "do_not_predict_loop_action"
+    }
+  },
+  "core_fallback_threshold": 0.3,
+  "core_fallback_action_name": "action_default_fallback",
+  "enable_fallback_prediction": true
+}

@@ -1,0 +1,272 @@
+version: "2.0"
+nlu:
+- intent: affirm
+  examples: |
+    - yes
+    - of course
+    - sure
+    - yeah
+    - ok
+    - cool
+    - go for it
+    - yep
+    - yep, will do thank you
+    - I'm sure I will!
+    - oh awesome!
+    - Yes
+    - accept
+    - I accept
+    - i accept
+    - ok i accept
+    - I changed my mind. I want to accept it
+    - ok cool
+    - alright
+    - i will!
+    - ok, I behave now
+    - yop
+    - oki doki
+    - yes please
+    - yes please!
+    - jo
+    - yep if i have to
+    - amayzing
+    - confirm
+    - nice
+    - coolio
+    - definitely yes without a doubt
+    - yas
+    - yup
+    - perfect
+    - sure thing
+    - absolutely
+    - Oh, ok
+    - Sure
+    - hm, i'd like that
+    - ja
+    - sure!
+    - yes i accept
+    - Sweet
+    - amazing!
+    - how nice!
+    - cool!
+    - yay
+    - yes accept please
+    - great
+    - oh cool
+    - fine
+- intent: deny
+  examples: |
+    - no
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+- intent: device_info
+  examples: |
+    - i want more info on [Xiaomi Redmi 7A](devices_list)
+    - I want to know more about [Xiaomi Redmi Note 7 Pro](devices_list)
+    - I wish to learn more about [Xiaomi Mi A2](devices_list)
+    - Tell me more about this [Xiaomi Redmi 6A](devices_list)
+    - I want information about [Xiaomi Redmi 7A](devices_list)
+    - I need further info on this [Xiaomi Redmi Note 7 Pro](devices_list)
+    - give me more info on [Xiaomi Mi A2](devices_list)
+    - tell me more about [Xiaomi Redmi 6A](devices_list)
+- intent: goodbye
+  examples: |
+    - bye
+    - goodbye
+    - see you around
+    - see you later
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - good morning
+    - good evening
+    - hey there
+    - hello there
+    - moin
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+- intent: mood_great
+  examples: |
+    - perfect
+    - very good
+    - great
+    - amazing
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I'm good
+- intent: mood_unhappy
+  examples: |
+    - sad
+    - very sad
+    - unhappy
+    - bad
+    - very bad
+    - awful
+    - terrible
+    - not very good
+    - extremely sad
+    - so sad
+- intent: more_info
+  examples: |
+    - I want to know more about this thing
+    - I wish to learn more about this
+    - Tell me more about this product
+    - I want information about this product
+    - I need further info on this product
+    - give me more info on this
+    - tell me more
+    - could you tell me more
+    - give me more information please
+    - could you please give me some more information
+    - i want more information
+    - tell me more information on your products
+    - get device information
+- intent: new_order
+  examples: |
+    - i need help with new order
+    - i want to place a new order
+    - i wish to order a phone
+    - i need to buy a product
+    - buy new product
+    - purchase phone
+    - order new device
+    - i need a new device
+    - i want to buy a new phone
+    - i wish to place an order for a phone
+    - tell me how to purchase a phone
+    - i need help with buying a redmi phone
+    - i want to place order for xiaomi phone
+    - i wish to purchase a redmi xiaomi phone
+    - place order
+- intent: new_order_with_device
+  examples: |
+    - i want to buy [Xiaomi Redmi 7A](devices_list)
+    - I wish to purchase [Xiaomi Redmi Note 7 Pro](devices_list)
+    - I need to place an order for [Xiaomi Mi A2](devices_list)
+    - Tell me how to order a [Xiaomi Redmi 6A](devices_list) phone
+    - I want to purchase a [Xiaomi Redmi 7A](devices_list) phone
+    - I need assistance with ordering a [Xiaomi Redmi Note 7 Pro](devices_list)
+    - help me buy a [Xiaomi Mi A2](devices_list)
+    - how do i purchase [Xiaomi Redmi 6A](devices_list)
+- intent: stop
+  examples: |
+    - i want to stop
+    - stop
+    - cancel
+    - go back
+- intent: suggestion_intent
+  examples: |
+    - i want device recommendation
+    - i would like some suggestions on phones to buy
+    - i need device suggestions
+    - i want advice on what device to purchase
+    - i wish for guidance on which phone to order
+    - i need you to tell me recommendations for product
+    - device recommendation
+    - suggestions on new phones
+    - i dont know what to buy give me suggestions
+    - tell me what phone to buy
+- intent: suggestions_inform
+  examples: |
+    - [10000 inr](budget)
+    - [25000 rupees](budget)
+    - [above 10000 rupees](budget)
+    - [below 10000](budget)
+    - [around 40k](budget)
+    - my budget is [above 10k](budget)
+    - budget is [above 20k](budget)
+    - my budget is [above 50k](budget)
+    - my budget will be [below 10k](budget)
+    - budget would be [below 20k](budget)
+    - my budget is [below 50k](budget)
+    - budget can be [around 40000](budget)
+    - [10 mp](camera)
+    - [20 megapixels](camera)
+    - [15mp](camera)
+    - [above 20mp](camera)
+    - [below 25megapixels](camera)
+    - [around 30mp](camera)
+    - [above 20 mp](camera)
+    - camera is [above 10mp](camera)
+    - my camera is [above 10MP](camera)
+    - camera is [above 20MP](camera)
+    - my camera is [above 15mP](camera)
+    - my camera will be [below 10Mp](camera)
+    - camera would be [below 20mp](camera)
+    - my camera is [around 50mp](camera)
+    - camera can be [around 4mp](camera)
+    - camera is [around 4mp](camera) and budget will be [above 10k](budget)
+    - budget can be [around 40000](budget) and camera is [above 10Mp](camera)
+    - camera is [below 4mp](camera) and budget will be [below 50k](budget)
+    - budget can be [above 25mp](budget) and camera is [above 10Mp](camera)
+    - camera is [below 10mp](camera) and budget will be [above 50k](budget)
+    - budget can be [around 30mp](budget) and camera is [above 10Mp](camera)
+- intent: thanks
+  examples: |
+    - Thanks
+    - Thank you
+    - Thank you so much
+    - Thanks bot
+    - Thanks for that
+    - cheers
+    - cheers bro
+    - ok thanks!
+    - perfect thank you
+    - thanks a bunch for everything
+    - thanks for the help
+    - thanks a lot
+    - amazing, thanks
+    - cool, thanks
+    - cool thank you
+    - thanks
+    - thanks!
+    - Cool. Thanks
+    - thanks this is great news
+    - thank you
+    - great thanks
+    - Thanks!
+    - cool thanks
+- intent: user_info_inform
+  examples: |
+    - name is [tom Cruise](user_name)
+    - my name is [Brad pitt](user_name)
+    - name [Johnny Bravo](user_name)
+    - [Benedict](user_name)
+    - [Natasha Romanoff](user_name)
+    - [Tony Stark](user_name)
+    - [tom cruise](user_name)
+    - email is [vidyab99@gmail.com](email_id)
+    - my email is [aslisona37@gmail.co.in](email_id)
+    - email [234blossom@gmail.co.in](email_id)
+    - [bruce.banner7@gmail.com](email_id)
+    - [chohelen446@hotmail.com](email_id)
+    - device name is [Xiaomi Redmi 7A](devices_list)
+    - my device name is [Xiaomi Redmi 7A](devices_list)
+    - device name [Xiaomi Redmi 7A](devices_list)
+    - [Xiaomi Redmi 7A](devices_list)
+    - [Xiaomi Redmi 6A](devices_list)
+    - my name is [Leo DiCaprio](user_name) and email is [adam_brie@yahoo.co.in](email_id)
+    - my email is [tony_Stark@yahoo.co.in](email_id) and name is [Marie curie](user_name)
+    - my name is [elizabeth](user_name) and device name is [Xiaomi Redmi Note 7 Pro](devices_list)
+    - my device name is [redmi note 4](devices_list) and name is [bhavya](user_name)
+    - my email is [anthony_mackie@hotmail.com](email_id) and device name is [Xiaomi Redmi Note 7 Pro](devices_list)
+    - my device name is [redmi note 4](devices_list) and email is [ChrisPine@hotmail.com](email_id)
+    - my email is [johndoe@hotmail.com](email_id) and device name is [Xiaomi Redmi Note 7 Pro](devices_list) and my name is [theodore](user_name)
+    - divya
+    - [divya](user_name)
+    - [divya.nallamalli@gmail.com](email_id)
+- lookup: devices_list
+  examples: |
+    - Xiaomi Redmi 7A
+    - Xiaomi Redmi Note 7 Pro
+    - Xiaomi Mi A2
+    - Xiaomi Redmi 6A

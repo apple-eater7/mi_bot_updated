@@ -1,0 +1,119 @@
+%YAML 1.1
+---
+actions:
+- utter_added_to_cart
+- utter_any_other_help
+- utter_ask_budget
+- utter_ask_camera
+- utter_ask_device_info_name
+- utter_ask_devices_list
+- utter_ask_email_id
+- utter_ask_user_name
+- utter_bot_actions
+- utter_default
+- utter_device_info
+- utter_goodbye
+- utter_greet
+- utter_happy
+- utter_has_user_decided
+- utter_show_recs
+- utter_suggest
+- utter_welcome
+- validate_user_name
+- validate_email_id
+- validate_devices_list
+- validate_budget
+- validate_camera
+entities:
+- budget
+- camera
+- devices_list
+- email_id
+- user_name
+forms:
+  suggestions_form:
+    budget:
+    - type: from_entity
+      entity: budget
+    camera:
+    - type: from_entity
+      entity: camera
+  user_info_form:
+    user_name:
+    - type: from_entity
+      entity: user_name
+    email_id:
+    - type: from_entity
+      entity: email_id
+    devices_list:
+    - type: from_entity
+      entity: devices_list
+intents:
+- affirm
+- greet
+- new_order
+- user_info_inform
+- goodbye
+- stop
+- thanks
+- deny
+- mood_great
+- mood_unhappy
+- suggestion_intent
+- new_order_with_device
+- suggestions_inform
+- more_info
+- device_info
+- devices_list
+slots:
+  budget:
+    type: unfeaturized
+  camera:
+    type: unfeaturized
+  devices_list:
+    type: unfeaturized
+  email_id:
+    type: unfeaturized
+  requested_slot:
+    type: unfeaturized
+  user_name:
+    type: unfeaturized
+responses:
+  utter_added_to_cart:
+  - text: '{devices_list} has been added to your cart'
+  utter_any_other_help:
+  - text: Is there anything else I can help you with?
+  utter_ask_budget:
+  - text: Please enter your estimated budget
+  utter_ask_camera:
+  - text: Please enter camera specifications
+  utter_ask_device_info_name:
+  - text: 'Please enter the exact name of the device you need information about:'
+  utter_ask_devices_list:
+  - text: Please enter the name of the device you wish to purchase
+  utter_ask_email_id:
+  - text: Please enter your email id
+  utter_ask_user_name:
+  - text: Please enter your name
+  utter_bot_actions:
+  - text: I can help you place new orders and get device information and recommendations.
+      What can I do for you?
+  utter_default:
+  - text: I'm sorry. I did not understand.
+  utter_device_info:
+  - text: 'Here is the device info for {devices_list}: ----------- '
+  utter_goodbye:
+  - text: I hope I have helped you. Goodbye!
+  utter_greet:
+  - text: Hello! I am MI Bot
+  utter_happy:
+  - text: Great carry on!
+  utter_has_user_decided:
+  - text: Have you decided on a device to purchase?
+  utter_show_recs:
+  - text: 'Here are some recommendations for the specifications: budget: {budget};
+      camera: {camera} '
+  utter_suggest:
+  - text: Sure! I can show you some suggestions.
+  utter_welcome:
+  - text: You are welcome!

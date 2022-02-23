@@ -1,0 +1,222 @@
+version: "2.0"
+stories:
+# - story: user info happy path
+#   steps:
+#   - intent: greet
+#   - action: utter_greet
+#   - action: utter_bot_actions
+#   - intent: new_order
+#   - action: utter_has_user_decided
+#   - intent: affirm
+#   - action: user_info_form
+#   - active_loop: user_info_form
+#   - active_loop: null
+#   - intent: thanks
+#   - action: utter_welcome
+#   - action: utter_any_other_help
+#   - intent: deny
+#   - action: utter_goodbye
+- story: any other help loop
+  steps:
+  - intent: thanks
+  - action: utter_welcome
+  - action: utter_any_other_help
+  - intent: affirm
+  - action: utter_bot_actions
+- story: device name buy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - action: utter_bot_actions
+  - intent: new_order_with_device
+  - action: user_info_form
+  - active_loop: user_info_form
+  - active_loop: null
+  - intent: thanks
+  - action: utter_welcome
+  - action: utter_any_other_help
+  - intent: deny
+  - action: utter_goodbye
+- story: suggestions user decided happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - action: utter_bot_actions
+  - intent: new_order
+  - action: utter_has_user_decided
+  - intent: deny
+  - action: utter_suggest
+  - action: suggestions_form
+  - active_loop: suggestions_form
+  - active_loop: null
+  - intent: affirm
+  - action: utter_bot_actions
+  - intent: stop
+  - action: utter_goodbye
+- story: user info stop path
+  steps:
+  - intent: new_order
+  - action: utter_has_user_decided
+  - intent: affirm
+  - action: user_info_form
+  - active_loop: user_info_form
+  - intent: stop
+  - action: action_deactivate_loop
+  - active_loop: null
+  - action: utter_goodbye
+- story: user info deny path
+  steps:
+  - intent: new_order
+  - action: utter_has_user_decided
+  - intent: affirm
+  - action: user_info_form
+  - active_loop: user_info_form
+  - intent: deny
+  - action: action_deactivate_loop
+  - active_loop: null
+  - action: utter_goodbye
+- story: suggestions user decided stop path
+  steps:
+  - intent: new_order
+  - action: utter_has_user_decided
+  - intent: deny
+  - action: utter_suggest
+  - action: suggestions_form
+  - active_loop: suggestions_form
+  - intent: stop
+  - action: action_deactivate_loop
+  - active_loop: null
+  - action: utter_goodbye
+- story: suggestions user decided deny path
+  steps:
+  - intent: new_order
+  - action: utter_has_user_decided
+  - intent: deny
+  - action: utter_suggest
+  - action: suggestions_form
+  - active_loop: suggestions_form
+  - intent: deny
+  - action: action_deactivate_loop
+  - active_loop: null
+  - action: utter_goodbye
+- story: suggestions start happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - action: utter_bot_actions
+  - intent: suggestion_intent
+  - action: utter_suggest
+  - action: suggestions_form
+  - active_loop: suggestions_form
+  - active_loop: null
+  - intent: affirm
+  - action: utter_bot_actions
+  - intent: stop
+  - action: utter_goodbye
+- story: suggestion stop midway path
+  steps:
+  - intent: suggestion_intent
+  - action: utter_suggest
+  - action: suggestions_form
+  - active_loop: suggestions_form
+  - intent: stop
+  - action: action_deactivate_loop
+  - active_loop: null
+  - action: utter_goodbye
+- story: suggestion deny midway path
+  steps:
+  - intent: suggestion_intent
+  - action: utter_suggest
+  - action: suggestions_form
+  - active_loop: suggestions_form
+  - intent: deny
+  - action: action_deactivate_loop
+  - active_loop: null
+  - action: utter_goodbye
+- story: stop path
+  steps:
+  - intent: stop
+  - action: utter_goodbye
+- story: greet path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - action: utter_bot_actions
+- story: device info path
+  steps:
+  - intent: more_info
+  - action: utter_ask_device_info_name
+  - intent: devices_list
+  - action: utter_device_info
+  - intent: affirm
+  - action: utter_bot_actions
+- story: greet path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - action: utter_bot_actions
+  - intent: stop
+  - action: utter_goodbye
+- story: deny path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - action: utter_bot_actions
+  - intent: deny
+  - action: utter_goodbye
+- story: Generated Story -6239276760558116133
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - action: utter_bot_actions
+  - intent: new_order
+  - action: utter_has_user_decided
+  - intent: affirm
+  - action: user_info_form
+  - active_loop: user_info_form
+  - slot_was_set:
+    - requested_slot: user_name
+  - slot_was_set:
+    - devices_list: xiaomi redmi 7a
+  - slot_was_set:
+    - email_id: tcrisue@gmail.com
+  - slot_was_set:
+    - user_name: tom cruise
+  - slot_was_set:
+    - email_id: tcrisue@gmail.com
+  - slot_was_set:
+    - devices_list: xiaomi redmi 7a
+  - slot_was_set:
+    - user_name: tom cruise
+  - active_loop: null
+  - slot_was_set:
+    - requested_slot: null
+  - intent: thanks
+  - action: utter_welcome
+  - action: utter_any_other_help
+  - intent: affirm
+  - action: utter_bot_actions
+- story: Generated Story -3797299654824799289
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - action: utter_bot_actions
+  - intent: new_order
+  - action: utter_has_user_decided
+  - intent: affirm
+  - action: user_info_form
+  - active_loop: user_info_form
+  - slot_was_set:
+    - requested_slot: user_name
+  - slot_was_set:
+    - user_name: divya
+  - slot_was_set:
+    - user_name: divya
+  - slot_was_set:
+    - requested_slot: email_id
+  - slot_was_set:
+    - email_id: divya.nallamalli@gmail.com
+  - slot_was_set:
+    - email_id: divya.nallamalli@gmail.com
+  - slot_was_set:
+    - requested_slot: devices_list

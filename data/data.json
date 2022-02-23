@@ -1,0 +1,1663 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "affirm",
+        "text": "yes"
+      },
+      {
+        "intent": "affirm",
+        "text": "of course"
+      },
+      {
+        "intent": "affirm",
+        "text": "sure"
+      },
+      {
+        "intent": "affirm",
+        "text": "yeah"
+      },
+      {
+        "intent": "affirm",
+        "text": "ok"
+      },
+      {
+        "intent": "affirm",
+        "text": "cool"
+      },
+      {
+        "intent": "affirm",
+        "text": "go for it"
+      },
+      {
+        "intent": "affirm",
+        "text": "yep"
+      },
+      {
+        "intent": "affirm",
+        "text": "yep, will do thank you"
+      },
+      {
+        "intent": "affirm",
+        "text": "I'm sure I will!"
+      },
+      {
+        "intent": "affirm",
+        "text": "oh awesome!"
+      },
+      {
+        "intent": "affirm",
+        "text": "Yes"
+      },
+      {
+        "intent": "affirm",
+        "text": "accept"
+      },
+      {
+        "intent": "affirm",
+        "text": "I accept"
+      },
+      {
+        "intent": "affirm",
+        "text": "i accept"
+      },
+      {
+        "intent": "affirm",
+        "text": "ok i accept"
+      },
+      {
+        "intent": "affirm",
+        "text": "I changed my mind. I want to accept it"
+      },
+      {
+        "intent": "affirm",
+        "text": "ok cool"
+      },
+      {
+        "intent": "affirm",
+        "text": "alright"
+      },
+      {
+        "intent": "affirm",
+        "text": "i will!"
+      },
+      {
+        "intent": "affirm",
+        "text": "ok, I behave now"
+      },
+      {
+        "intent": "affirm",
+        "text": "yop"
+      },
+      {
+        "intent": "affirm",
+        "text": "oki doki"
+      },
+      {
+        "intent": "affirm",
+        "text": "yes please"
+      },
+      {
+        "intent": "affirm",
+        "text": "yes please!"
+      },
+      {
+        "intent": "affirm",
+        "text": "jo"
+      },
+      {
+        "intent": "affirm",
+        "text": "yep if i have to"
+      },
+      {
+        "intent": "affirm",
+        "text": "amayzing"
+      },
+      {
+        "intent": "affirm",
+        "text": "confirm"
+      },
+      {
+        "intent": "affirm",
+        "text": "nice"
+      },
+      {
+        "intent": "affirm",
+        "text": "coolio"
+      },
+      {
+        "intent": "affirm",
+        "text": "definitely yes without a doubt"
+      },
+      {
+        "intent": "affirm",
+        "text": "yas"
+      },
+      {
+        "intent": "affirm",
+        "text": "yup"
+      },
+      {
+        "intent": "affirm",
+        "text": "perfect"
+      },
+      {
+        "intent": "affirm",
+        "text": "sure thing"
+      },
+      {
+        "intent": "affirm",
+        "text": "absolutely"
+      },
+      {
+        "intent": "affirm",
+        "text": "Oh, ok"
+      },
+      {
+        "intent": "affirm",
+        "text": "Sure"
+      },
+      {
+        "intent": "affirm",
+        "text": "hm, i'd like that"
+      },
+      {
+        "intent": "affirm",
+        "text": "ja"
+      },
+      {
+        "intent": "affirm",
+        "text": "sure!"
+      },
+      {
+        "intent": "affirm",
+        "text": "yes i accept"
+      },
+      {
+        "intent": "affirm",
+        "text": "Sweet"
+      },
+      {
+        "intent": "affirm",
+        "text": "amazing!"
+      },
+      {
+        "intent": "affirm",
+        "text": "how nice!"
+      },
+      {
+        "intent": "affirm",
+        "text": "cool!"
+      },
+      {
+        "intent": "affirm",
+        "text": "yay"
+      },
+      {
+        "intent": "affirm",
+        "text": "yes accept please"
+      },
+      {
+        "intent": "affirm",
+        "text": "great"
+      },
+      {
+        "intent": "affirm",
+        "text": "oh cool"
+      },
+      {
+        "intent": "affirm",
+        "text": "yes"
+      },
+      {
+        "intent": "affirm",
+        "text": "fine"
+      },
+      {
+        "intent": "affirm",
+        "text": "yes"
+      },
+      {
+        "intent": "deny",
+        "text": "no"
+      },
+      {
+        "intent": "deny",
+        "text": "never"
+      },
+      {
+        "intent": "deny",
+        "text": "I don't think so"
+      },
+      {
+        "intent": "deny",
+        "text": "don't like that"
+      },
+      {
+        "intent": "deny",
+        "text": "no way"
+      },
+      {
+        "intent": "deny",
+        "text": "not really"
+      },
+      {
+        "intent": "device_info",
+        "entities": [
+          {
+            "start": 20,
+            "end": 35,
+            "value": "Xiaomi Redmi 7A",
+            "entity": "devices_list"
+          }
+        ],
+        "text": "i want more info on Xiaomi Redmi 7A"
+      },
+      {
+        "intent": "device_info",
+        "entities": [
+          {
+            "start": 26,
+            "end": 49,
+            "value": "Xiaomi Redmi Note 7 Pro",
+            "entity": "devices_list"
+          }
+        ],
+        "text": "I want to know more about Xiaomi Redmi Note 7 Pro"
+      },
+      {
+        "intent": "device_info",
+        "entities": [
+          {
+            "start": 27,
+            "end": 39,
+            "value": "Xiaomi Mi A2",
+            "entity": "devices_list"
+          }
+        ],
+        "text": "I wish to learn more about Xiaomi Mi A2"
+      },
+      {
+        "intent": "device_info",
+        "entities": [
+          {
+            "start": 24,
+            "end": 39,
+            "value": "Xiaomi Redmi 6A",
+            "entity": "devices_list"
+          }
+        ],
+        "text": "Tell me more about this Xiaomi Redmi 6A"
+      },
+      {
+        "intent": "device_info",
+        "entities": [
+          {
+            "start": 25,
+            "end": 40,
+            "value": "Xiaomi Redmi 7A",
+            "entity": "devices_list"
+          }
+        ],
+        "text": "I want information about Xiaomi Redmi 7A"
+      },
+      {
+        "intent": "device_info",
+        "entities": [
+          {
+            "start": 28,
+            "end": 51,
+            "value": "Xiaomi Redmi Note 7 Pro",
+            "entity": "devices_list"
+          }
+        ],
+        "text": "I need further info on this Xiaomi Redmi Note 7 Pro"
+      },
+      {
+        "intent": "device_info",
+        "entities": [
+          {
+            "start": 21,
+            "end": 33,
+            "value": "Xiaomi Mi A2",
+            "entity": "devices_list"
+          }
+        ],
+        "text": "give me more info on Xiaomi Mi A2"
+      },
+      {
+        "intent": "device_info",
+        "entities": [
+          {
+            "start": 19,
+            "end": 34,
+            "value": "Xiaomi Redmi 6A",
+            "entity": "devices_list"
+          }
+        ],
+        "text": "tell me more about Xiaomi Redmi 6A"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "goodbye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "see you around"
+      },
+      {
+        "intent": "goodbye",
+        "text": "see you later"
+      },
+      {
+        "intent": "greet",
+        "text": "hey"
+      },
+      {
+        "intent": "greet",
+        "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "greet",
+        "text": "good morning"
+      },
+      {
+        "intent": "greet",
+        "text": "good evening"
+      },
+      {
+        "intent": "greet",
+        "text": "hey there"
+      },
+      {
+        "intent": "greet",
+        "text": "hello there"
+      },
+      {
+        "intent": "greet",
+        "text": "moin"
+      },
+      {
+        "intent": "greet",
+        "text": "hey there"
+      },
+      {
+        "intent": "greet",
+        "text": "let's go"
+      },
+      {
+        "intent": "greet",
+        "text": "hey dude"
+      },
+      {
+        "intent": "greet",
+        "text": "goodmorning"
+      },
+      {
+        "intent": "greet",
+        "text": "goodevening"
+      },
+      {
+        "intent": "greet",
+        "text": "good afternoon"
+      },
+      {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "mood_great",
+        "text": "perfect"
+      },
+      {
+        "intent": "mood_great",
+        "text": "very good"
+      },
+      {
+        "intent": "mood_great",
+        "text": "great"
+      },
+      {
+        "intent": "mood_great",
+        "text": "amazing"
+      },
+      {
+        "intent": "mood_great",
+        "text": "wonderful"
+      },
+      {
+        "intent": "mood_great",
+        "text": "I am feeling very good"
+      },
+      {
+        "intent": "mood_great",
+        "text": "I am great"
+      },
+      {
+        "intent": "mood_great",
+        "text": "I'm good"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "sad"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "very sad"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "unhappy"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "bad"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "very bad"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "awful"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "terrible"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "not very good"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "extremely sad"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "so sad"
+      },
+      {
+        "intent": "more_info",
+        "text": "I want to know more about this thing"
+      },
+      {
+        "intent": "more_info",
+        "text": "I wish to learn more about this"
+      },
+      {
+        "intent": "more_info",
+        "text": "Tell me more about this product"
+      },
+      {
+        "intent": "more_info",
+        "text": "I want information about this product"
+      },
+      {
+        "intent": "more_info",
+        "text": "I need further info on this product"
+      },
+      {
+        "intent": "more_info",
+        "text": "give me more info on this"
+      },
+      {
+        "intent": "more_info",
+        "text": "tell me more"
+      },
+      {
+        "intent": "more_info",
+        "text": "could you tell me more"
+      },
+      {
+        "intent": "more_info",
+        "text": "give me more information please"
+      },
+      {
+        "intent": "more_info",
+        "text": "could you please give me some more information"
+      },
+      {
+        "intent": "more_info",
+        "text": "i want more information"
+      },
+      {
+        "intent": "more_info",
+        "text": "tell me more information on your products"
+      },
+      {
+        "intent": "more_info",
+        "text": "get device information"
+      },
+      {
+        "intent": "new_order",
+        "text": "i need help with new order"
+      },
+      {
+        "intent": "new_order",
+        "text": "i want to place a new order"
+      },
+      {
+        "intent": "new_order",
+        "text": "i wish to order a phone"
+      },
+      {
+        "intent": "new_order",
+        "text": "i need to buy a product"
+      },
+      {
+        "intent": "new_order",
+        "text": "buy new product"
+      },
+      {
+        "intent": "new_order",
+        "text": "purchase phone"
+      },
+      {
+        "intent": "new_order",
+        "text": "order new device"
+      },
+      {
+        "intent": "new_order",
+        "text": "i need a new device"
+      },
+      {
+        "intent": "new_order",
+        "text": "i want to buy a new phone"
+      },
+      {
+        "intent": "new_order",
+        "text": "i wish to place an order for a phone"
+      },
+      {
+        "intent": "new_order",
+        "text": "tell me how to purchase a phone"
+      },
+      {
+        "intent": "new_order",
+        "text": "i need help with buying a redmi phone"
+      },
+      {
+        "intent": "new_order",
+        "text": "i want to place order for xiaomi phone"
+      },
+      {
+        "intent": "new_order",
+        "text": "i wish to purchase a redmi xiaomi phone"
+      },
+      {
+        "intent": "new_order",
+        "text": "place order"
+      },
+      {
+        "intent": "new_order_with_device",
+        "entities": [
+          {
+            "start": 14,
+            "end": 29,
+            "value": "Xiaomi Redmi 7A",
+            "entity": "devices_list"
+          }
+        ],
+        "text": "i want to buy Xiaomi Redmi 7A"
+      },
+      {
+        "intent": "new_order_with_device",
+        "entities": [
+          {
+            "start": 19,
+            "end": 42,
+            "value": "Xiaomi Redmi Note 7 Pro",
+            "entity": "devices_list"
+          }
+        ],
+        "text": "I wish to purchase Xiaomi Redmi Note 7 Pro"
+      },
+      {
+        "intent": "new_order_with_device",
+        "entities": [
+          {
+            "start": 29,
+            "end": 41,
+            "value": "Xiaomi Mi A2",
+            "entity": "devices_list"
+          }
+        ],
+        "text": "I need to place an order for Xiaomi Mi A2"
+      },
+      {
+        "intent": "new_order_with_device",
+        "entities": [
+          {
+            "start": 23,
+            "end": 38,
+            "value": "Xiaomi Redmi 6A",
+            "entity": "devices_list"
+          }
+        ],
+        "text": "Tell me how to order a Xiaomi Redmi 6A phone"
+      },
+      {
+        "intent": "new_order_with_device",
+        "entities": [
+          {
+            "start": 21,
+            "end": 36,
+            "value": "Xiaomi Redmi 7A",
+            "entity": "devices_list"
+          }
+        ],
+        "text": "I want to purchase a Xiaomi Redmi 7A phone"
+      },
+      {
+        "intent": "new_order_with_device",
+        "entities": [
+          {
+            "start": 34,
+            "end": 57,
+            "value": "Xiaomi Redmi Note 7 Pro",
+            "entity": "devices_list"
+          }
+        ],
+        "text": "I need assistance with ordering a Xiaomi Redmi Note 7 Pro"
+      },
+      {
+        "intent": "new_order_with_device",
+        "entities": [
+          {
+            "start": 14,
+            "end": 26,
+            "value": "Xiaomi Mi A2",
+            "entity": "devices_list"
+          }
+        ],
+        "text": "help me buy a Xiaomi Mi A2"
+      },
+      {
+        "intent": "new_order_with_device",
+        "entities": [
+          {
+            "start": 18,
+            "end": 33,
+            "value": "Xiaomi Redmi 6A",
+            "entity": "devices_list"
+          }
+        ],
+        "text": "how do i purchase Xiaomi Redmi 6A"
+      },
+      {
+        "intent": "stop",
+        "text": "i want to stop"
+      },
+      {
+        "intent": "stop",
+        "text": "stop"
+      },
+      {
+        "intent": "stop",
+        "text": "cancel"
+      },
+      {
+        "intent": "stop",
+        "text": "go back"
+      },
+      {
+        "intent": "suggestion_intent",
+        "text": "i want device recommendation"
+      },
+      {
+        "intent": "suggestion_intent",
+        "text": "i would like some suggestions on phones to buy"
+      },
+      {
+        "intent": "suggestion_intent",
+        "text": "i need device suggestions"
+      },
+      {
+        "intent": "suggestion_intent",
+        "text": "i want advice on what device to purchase"
+      },
+      {
+        "intent": "suggestion_intent",
+        "text": "i wish for guidance on which phone to order"
+      },
+      {
+        "intent": "suggestion_intent",
+        "text": "i need you to tell me recommendations for product"
+      },
+      {
+        "intent": "suggestion_intent",
+        "text": "device recommendation"
+      },
+      {
+        "intent": "suggestion_intent",
+        "text": "suggestions on new phones"
+      },
+      {
+        "intent": "suggestion_intent",
+        "text": "i dont know what to buy give me suggestions"
+      },
+      {
+        "intent": "suggestion_intent",
+        "text": "tell me what phone to buy"
+      },
+      {
+        "intent": "suggestions_inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "10000 inr",
+            "entity": "budget"
+          }
+        ],
+        "text": "10000 inr"
+      },
+      {
+        "intent": "suggestions_inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "25000 rupees",
+            "entity": "budget"
+          }
+        ],
+        "text": "25000 rupees"
+      },
+      {
+        "intent": "suggestions_inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 18,
+            "value": "above 10000 rupees",
+            "entity": "budget"
+          }
+        ],
+        "text": "above 10000 rupees"
+      },
+      {
+        "intent": "suggestions_inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "below 10000",
+            "entity": "budget"
+          }
+        ],
+        "text": "below 10000"
+      },
+      {
+        "intent": "suggestions_inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "around 40k",
+            "entity": "budget"
+          }
+        ],
+        "text": "around 40k"
+      },
+      {
+        "intent": "suggestions_inform",
+        "entities": [
+          {
+            "start": 13,
+            "end": 22,
+            "value": "above 10k",
+            "entity": "budget"
+          }
+        ],
+        "text": "my budget is above 10k"
+      },
+      {
+        "intent": "suggestions_inform",
+        "entities": [
+          {
+            "start": 10,
+            "end": 19,
+            "value": "above 20k",
+            "entity": "budget"
+          }
+        ],
+        "text": "budget is above 20k"
+      },
+      {
+        "intent": "suggestions_inform",
+        "entities": [
+          {
+            "start": 13,
+            "end": 22,
+            "value": "above 50k",
+            "entity": "budget"
+          }
+        ],
+        "text": "my budget is above 50k"
+      },
+      {
+        "intent": "suggestions_inform",
+        "entities": [
+          {
+            "start": 18,
+            "end": 27,
+            "value": "below 10k",
+            "entity": "budget"
+          }
+        ],
+        "text": "my budget will be below 10k"
+      },
+      {
+        "intent": "suggestions_inform",
+        "entities": [
+          {
+            "start": 16,
+            "end": 25,
+            "value": "below 20k",
+            "entity": "budget"
+          }
+        ],
+        "text": "budget would be below 20k"
+      },
+      {
+        "intent": "suggestions_inform",
+        "entities": [
+          {
+            "start": 13,
+            "end": 22,
+            "value": "below 50k",
+            "entity": "budget"
+          }
+        ],
+        "text": "my budget is below 50k"
+      },
+      {
+        "intent": "suggestions_inform",
+        "entities": [
+          {
+            "start": 14,
+            "end": 26,
+            "value": "around 40000",
+            "entity": "budget"
+          }
+        ],
+        "text": "budget can be around 40000"
+      },
+      {
+        "intent": "suggestions_inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "10 mp",
+            "entity": "camera"
+          }
+        ],
+        "text": "10 mp"
+      },
+      {
+        "intent": "suggestions_inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 13,
+            "value": "20 megapixels",
+            "entity": "camera"
+          }
+        ],
+        "text": "20 megapixels"
+      },
+      {
+        "intent": "suggestions_inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "15mp",
+            "entity": "camera"
+          }
+        ],
+        "text": "15mp"
+      },
+      {
+        "intent": "suggestions_inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "above 20mp",
+            "entity": "camera"
+          }
+        ],
+        "text": "above 20mp"
+      },
+      {
+        "intent": "suggestions_inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 18,
+            "value": "below 25megapixels",
+            "entity": "camera"
+          }
+        ],
+        "text": "below 25megapixels"
+      },
+      {
+        "intent": "suggestions_inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "around 30mp",
+            "entity": "camera"
+          }
+        ],
+        "text": "around 30mp"
+      },
+      {
+        "intent": "suggestions_inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "above 20 mp",
+            "entity": "camera"
+          }
+        ],
+        "text": "above 20 mp"
+      },
+      {
+        "intent": "suggestions_inform",
+        "entities": [
+          {
+            "start": 10,
+            "end": 20,
+            "value": "above 10mp",
+            "entity": "camera"
+          }
+        ],
+        "text": "camera is above 10mp"
+      },
+      {
+        "intent": "suggestions_inform",
+        "entities": [
+          {
+            "start": 13,
+            "end": 23,
+            "value": "above 10MP",
+            "entity": "camera"
+          }
+        ],
+        "text": "my camera is above 10MP"
+      },
+      {
+        "intent": "suggestions_inform",
+        "entities": [
+          {
+            "start": 10,
+            "end": 20,
+            "value": "above 20MP",
+            "entity": "camera"
+          }
+        ],
+        "text": "camera is above 20MP"
+      },
+      {
+        "intent": "suggestions_inform",
+        "entities": [
+          {
+            "start": 13,
+            "end": 23,
+            "value": "above 15mP",
+            "entity": "camera"
+          }
+        ],
+        "text": "my camera is above 15mP"
+      },
+      {
+        "intent": "suggestions_inform",
+        "entities": [
+          {
+            "start": 18,
+            "end": 28,
+            "value": "below 10Mp",
+            "entity": "camera"
+          }
+        ],
+        "text": "my camera will be below 10Mp"
+      },
+      {
+        "intent": "suggestions_inform",
+        "entities": [
+          {
+            "start": 16,
+            "end": 26,
+            "value": "below 20mp",
+            "entity": "camera"
+          }
+        ],
+        "text": "camera would be below 20mp"
+      },
+      {
+        "intent": "suggestions_inform",
+        "entities": [
+          {
+            "start": 13,
+            "end": 24,
+            "value": "around 50mp",
+            "entity": "camera"
+          }
+        ],
+        "text": "my camera is around 50mp"
+      },
+      {
+        "intent": "suggestions_inform",
+        "entities": [
+          {
+            "start": 14,
+            "end": 24,
+            "value": "around 4mp",
+            "entity": "camera"
+          }
+        ],
+        "text": "camera can be around 4mp"
+      },
+      {
+        "intent": "suggestions_inform",
+        "entities": [
+          {
+            "start": 10,
+            "end": 20,
+            "value": "around 4mp",
+            "entity": "camera"
+          },
+          {
+            "start": 40,
+            "end": 49,
+            "value": "above 10k",
+            "entity": "budget"
+          }
+        ],
+        "text": "camera is around 4mp and budget will be above 10k"
+      },
+      {
+        "intent": "suggestions_inform",
+        "entities": [
+          {
+            "start": 14,
+            "end": 26,
+            "value": "around 40000",
+            "entity": "budget"
+          },
+          {
+            "start": 41,
+            "end": 51,
+            "value": "above 10Mp",
+            "entity": "camera"
+          }
+        ],
+        "text": "budget can be around 40000 and camera is above 10Mp"
+      },
+      {
+        "intent": "suggestions_inform",
+        "entities": [
+          {
+            "start": 10,
+            "end": 19,
+            "value": "below 4mp",
+            "entity": "camera"
+          },
+          {
+            "start": 39,
+            "end": 48,
+            "value": "below 50k",
+            "entity": "budget"
+          }
+        ],
+        "text": "camera is below 4mp and budget will be below 50k"
+      },
+      {
+        "intent": "suggestions_inform",
+        "entities": [
+          {
+            "start": 14,
+            "end": 24,
+            "value": "above 25mp",
+            "entity": "budget"
+          },
+          {
+            "start": 39,
+            "end": 49,
+            "value": "above 10Mp",
+            "entity": "camera"
+          }
+        ],
+        "text": "budget can be above 25mp and camera is above 10Mp"
+      },
+      {
+        "intent": "suggestions_inform",
+        "entities": [
+          {
+            "start": 10,
+            "end": 20,
+            "value": "below 10mp",
+            "entity": "camera"
+          },
+          {
+            "start": 40,
+            "end": 49,
+            "value": "above 50k",
+            "entity": "budget"
+          }
+        ],
+        "text": "camera is below 10mp and budget will be above 50k"
+      },
+      {
+        "intent": "suggestions_inform",
+        "entities": [
+          {
+            "start": 14,
+            "end": 25,
+            "value": "around 30mp",
+            "entity": "budget"
+          },
+          {
+            "start": 40,
+            "end": 50,
+            "value": "above 10Mp",
+            "entity": "camera"
+          }
+        ],
+        "text": "budget can be around 30mp and camera is above 10Mp"
+      },
+      {
+        "intent": "thanks",
+        "text": "Thanks"
+      },
+      {
+        "intent": "thanks",
+        "text": "Thank you"
+      },
+      {
+        "intent": "thanks",
+        "text": "Thank you so much"
+      },
+      {
+        "intent": "thanks",
+        "text": "Thanks bot"
+      },
+      {
+        "intent": "thanks",
+        "text": "Thanks for that"
+      },
+      {
+        "intent": "thanks",
+        "text": "cheers"
+      },
+      {
+        "intent": "thanks",
+        "text": "cheers bro"
+      },
+      {
+        "intent": "thanks",
+        "text": "ok thanks!"
+      },
+      {
+        "intent": "thanks",
+        "text": "perfect thank you"
+      },
+      {
+        "intent": "thanks",
+        "text": "thanks a bunch for everything"
+      },
+      {
+        "intent": "thanks",
+        "text": "thanks for the help"
+      },
+      {
+        "intent": "thanks",
+        "text": "thanks a lot"
+      },
+      {
+        "intent": "thanks",
+        "text": "amazing, thanks"
+      },
+      {
+        "intent": "thanks",
+        "text": "cool, thanks"
+      },
+      {
+        "intent": "thanks",
+        "text": "cool thank you"
+      },
+      {
+        "intent": "thanks",
+        "text": "thanks"
+      },
+      {
+        "intent": "thanks",
+        "text": "thanks!"
+      },
+      {
+        "intent": "thanks",
+        "text": "Cool. Thanks"
+      },
+      {
+        "intent": "thanks",
+        "text": "thanks"
+      },
+      {
+        "intent": "thanks",
+        "text": "thanks this is great news"
+      },
+      {
+        "intent": "thanks",
+        "text": "thank you"
+      },
+      {
+        "intent": "thanks",
+        "text": "great thanks"
+      },
+      {
+        "intent": "thanks",
+        "text": "Thanks!"
+      },
+      {
+        "intent": "thanks",
+        "text": "cool thanks"
+      },
+      {
+        "intent": "thanks",
+        "text": "thanks!"
+      },
+      {
+        "intent": "user_info_inform",
+        "entities": [
+          {
+            "start": 8,
+            "end": 18,
+            "value": "tom Cruise",
+            "entity": "user_name"
+          }
+        ],
+        "text": "name is tom Cruise"
+      },
+      {
+        "intent": "user_info_inform",
+        "entities": [
+          {
+            "start": 11,
+            "end": 20,
+            "value": "Brad pitt",
+            "entity": "user_name"
+          }
+        ],
+        "text": "my name is Brad pitt"
+      },
+      {
+        "intent": "user_info_inform",
+        "entities": [
+          {
+            "start": 5,
+            "end": 17,
+            "value": "Johnny Bravo",
+            "entity": "user_name"
+          }
+        ],
+        "text": "name Johnny Bravo"
+      },
+      {
+        "intent": "user_info_inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "Benedict",
+            "entity": "user_name"
+          }
+        ],
+        "text": "Benedict"
+      },
+      {
+        "intent": "user_info_inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 16,
+            "value": "Natasha Romanoff",
+            "entity": "user_name"
+          }
+        ],
+        "text": "Natasha Romanoff"
+      },
+      {
+        "intent": "user_info_inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "Tony Stark",
+            "entity": "user_name"
+          }
+        ],
+        "text": "Tony Stark"
+      },
+      {
+        "intent": "user_info_inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "tom cruise",
+            "entity": "user_name"
+          }
+        ],
+        "text": "tom cruise"
+      },
+      {
+        "intent": "user_info_inform",
+        "entities": [
+          {
+            "start": 9,
+            "end": 27,
+            "value": "vidyab99@gmail.com",
+            "entity": "email_id"
+          }
+        ],
+        "text": "email is vidyab99@gmail.com"
+      },
+      {
+        "intent": "user_info_inform",
+        "entities": [
+          {
+            "start": 12,
+            "end": 34,
+            "value": "aslisona37@gmail.co.in",
+            "entity": "email_id"
+          }
+        ],
+        "text": "my email is aslisona37@gmail.co.in"
+      },
+      {
+        "intent": "user_info_inform",
+        "entities": [
+          {
+            "start": 6,
+            "end": 28,
+            "value": "234blossom@gmail.co.in",
+            "entity": "email_id"
+          }
+        ],
+        "text": "email 234blossom@gmail.co.in"
+      },
+      {
+        "intent": "user_info_inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 23,
+            "value": "bruce.banner7@gmail.com",
+            "entity": "email_id"
+          }
+        ],
+        "text": "bruce.banner7@gmail.com"
+      },
+      {
+        "intent": "user_info_inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 23,
+            "value": "chohelen446@hotmail.com",
+            "entity": "email_id"
+          }
+        ],
+        "text": "chohelen446@hotmail.com"
+      },
+      {
+        "intent": "user_info_inform",
+        "entities": [
+          {
+            "start": 15,
+            "end": 30,
+            "value": "Xiaomi Redmi 7A",
+            "entity": "devices_list"
+          }
+        ],
+        "text": "device name is Xiaomi Redmi 7A"
+      },
+      {
+        "intent": "user_info_inform",
+        "entities": [
+          {
+            "start": 18,
+            "end": 33,
+            "value": "Xiaomi Redmi 7A",
+            "entity": "devices_list"
+          }
+        ],
+        "text": "my device name is Xiaomi Redmi 7A"
+      },
+      {
+        "intent": "user_info_inform",
+        "entities": [
+          {
+            "start": 12,
+            "end": 27,
+            "value": "Xiaomi Redmi 7A",
+            "entity": "devices_list"
+          }
+        ],
+        "text": "device name Xiaomi Redmi 7A"
+      },
+      {
+        "intent": "user_info_inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 15,
+            "value": "Xiaomi Redmi 7A",
+            "entity": "devices_list"
+          }
+        ],
+        "text": "Xiaomi Redmi 7A"
+      },
+      {
+        "intent": "user_info_inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 15,
+            "value": "Xiaomi Redmi 6A",
+            "entity": "devices_list"
+          }
+        ],
+        "text": "Xiaomi Redmi 6A"
+      },
+      {
+        "intent": "user_info_inform",
+        "entities": [
+          {
+            "start": 11,
+            "end": 23,
+            "value": "Leo DiCaprio",
+            "entity": "user_name"
+          },
+          {
+            "start": 37,
+            "end": 58,
+            "value": "adam_brie@yahoo.co.in",
+            "entity": "email_id"
+          }
+        ],
+        "text": "my name is Leo DiCaprio and email is adam_brie@yahoo.co.in"
+      },
+      {
+        "intent": "user_info_inform",
+        "entities": [
+          {
+            "start": 12,
+            "end": 34,
+            "value": "tony_Stark@yahoo.co.in",
+            "entity": "email_id"
+          },
+          {
+            "start": 47,
+            "end": 58,
+            "value": "Marie curie",
+            "entity": "user_name"
+          }
+        ],
+        "text": "my email is tony_Stark@yahoo.co.in and name is Marie curie"
+      },
+      {
+        "intent": "user_info_inform",
+        "entities": [
+          {
+            "start": 11,
+            "end": 20,
+            "value": "elizabeth",
+            "entity": "user_name"
+          },
+          {
+            "start": 40,
+            "end": 63,
+            "value": "Xiaomi Redmi Note 7 Pro",
+            "entity": "devices_list"
+          }
+        ],
+        "text": "my name is elizabeth and device name is Xiaomi Redmi Note 7 Pro"
+      },
+      {
+        "intent": "user_info_inform",
+        "entities": [
+          {
+            "start": 18,
+            "end": 30,
+            "value": "redmi note 4",
+            "entity": "devices_list"
+          },
+          {
+            "start": 43,
+            "end": 49,
+            "value": "bhavya",
+            "entity": "user_name"
+          }
+        ],
+        "text": "my device name is redmi note 4 and name is bhavya"
+      },
+      {
+        "intent": "user_info_inform",
+        "entities": [
+          {
+            "start": 12,
+            "end": 38,
+            "value": "anthony_mackie@hotmail.com",
+            "entity": "email_id"
+          },
+          {
+            "start": 58,
+            "end": 81,
+            "value": "Xiaomi Redmi Note 7 Pro",
+            "entity": "devices_list"
+          }
+        ],
+        "text": "my email is anthony_mackie@hotmail.com and device name is Xiaomi Redmi Note 7 Pro"
+      },
+      {
+        "intent": "user_info_inform",
+        "entities": [
+          {
+            "start": 18,
+            "end": 30,
+            "value": "redmi note 4",
+            "entity": "devices_list"
+          },
+          {
+            "start": 44,
+            "end": 65,
+            "value": "ChrisPine@hotmail.com",
+            "entity": "email_id"
+          }
+        ],
+        "text": "my device name is redmi note 4 and email is ChrisPine@hotmail.com"
+      },
+      {
+        "intent": "user_info_inform",
+        "entities": [
+          {
+            "start": 12,
+            "end": 31,
+            "value": "johndoe@hotmail.com",
+            "entity": "email_id"
+          },
+          {
+            "start": 51,
+            "end": 74,
+            "value": "Xiaomi Redmi Note 7 Pro",
+            "entity": "devices_list"
+          },
+          {
+            "start": 90,
+            "end": 98,
+            "value": "theodore",
+            "entity": "user_name"
+          }
+        ],
+        "text": "my email is johndoe@hotmail.com and device name is Xiaomi Redmi Note 7 Pro and my name is theodore"
+      },
+      {
+        "intent": "user_info_inform",
+        "text": "divya"
+      },
+      {
+        "intent": "user_info_inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "divya",
+            "entity": "user_name"
+          }
+        ],
+        "text": "divya"
+      },
+      {
+        "intent": "user_info_inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 26,
+            "value": "divya.nallamalli@gmail.com",
+            "entity": "email_id"
+          }
+        ],
+        "text": "divya.nallamalli@gmail.com"
+      }
+    ],
+    "regex_features": [],
+    "lookup_tables": [
+      {
+        "name": "devices_list",
+        "elements": [
+          "Xiaomi Redmi 7A",
+          "Xiaomi Redmi Note 7 Pro",
+          "Xiaomi Mi A2",
+          "Xiaomi Redmi 6A"
+        ]
+      }
+    ],
+    "entity_synonyms": []
+  }
+}

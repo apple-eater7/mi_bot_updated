@@ -1,0 +1,21 @@
+rules:
+  - rule: Activate User Info form
+    steps:
+  - intent: new_order
+  - action: utter_has_user_decided
+  - intent: affirm
+  - action: user_info_form
+  - active_loop: user_info_form
+
+  - rule: Submit User Info form
+    condition:
+    # Condition that form is active.
+    - active_loop: user_info_form
+    steps:
+    - action: user_info_form
+    - active_loop: null
+    # The action we want to run when the form is submitted.
+    - action: utter_welcome
+    # - action: utter_any_other_help
+    # - intent: deny
+    # - action: utter_goodbye

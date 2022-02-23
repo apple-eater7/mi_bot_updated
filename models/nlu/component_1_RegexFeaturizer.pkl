@@ -1,0 +1,10 @@
+[
+    {
+        "name": "devices_list",
+        "pattern": "(\\bXiaomi\\ Redmi\\ 7A\\b|\\bXiaomi\\ Redmi\\ Note\\ 7\\ Pro\\b|\\bXiaomi\\ Mi\\ A2\\b|\\bXiaomi\\ Redmi\\ 6A\\b)"
+    },
+    {
+        "name": "devices_list",
+        "pattern": "(\\bXiaomi\\ Redmi\\ 7A\\b|\\bXiaomi\\ Redmi\\ Note\\ 7\\ Pro\\b|\\bXiaomi\\ Mi\\ A2\\b|\\bXiaomi\\ Redmi\\ 6A\\b)"
+    }
+]

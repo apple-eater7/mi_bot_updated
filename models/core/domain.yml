@@ -1,0 +1,156 @@
+config:
+  store_entities_as_slots: true
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+intents:
+- affirm:
+    use_entities: true
+- greet:
+    use_entities: true
+- new_order:
+    use_entities: true
+- user_info_inform:
+    use_entities: true
+- goodbye:
+    use_entities: true
+- stop:
+    use_entities: true
+- thanks:
+    use_entities: true
+- deny:
+    use_entities: true
+- mood_great:
+    use_entities: true
+- mood_unhappy:
+    use_entities: true
+- suggestion_intent:
+    use_entities: true
+- new_order_with_device:
+    use_entities: true
+- suggestions_inform:
+    use_entities: true
+- more_info:
+    use_entities: true
+- device_info:
+    use_entities: true
+- devices_list:
+    use_entities: true
+entities:
+- budget
+- camera
+- devices_list
+- email_id
+- user_name
+slots:
+  budget:
+    type: rasa.shared.core.slots.UnfeaturizedSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: false
+  camera:
+    type: rasa.shared.core.slots.UnfeaturizedSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: false
+  devices_list:
+    type: rasa.shared.core.slots.UnfeaturizedSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: false
+  email_id:
+    type: rasa.shared.core.slots.UnfeaturizedSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: false
+  requested_slot:
+    type: rasa.shared.core.slots.UnfeaturizedSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: false
+  user_name:
+    type: rasa.shared.core.slots.UnfeaturizedSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: false
+responses:
+  utter_added_to_cart:
+  - text: '{devices_list} has been added to your cart'
+  utter_any_other_help:
+  - text: Is there anything else I can help you with?
+  utter_ask_budget:
+  - text: Please enter your estimated budget
+  utter_ask_camera:
+  - text: Please enter camera specifications
+  utter_ask_device_info_name:
+  - text: 'Please enter the exact name of the device you need information about:'
+  utter_ask_devices_list:
+  - text: Please enter the name of the device you wish to purchase
+  utter_ask_email_id:
+  - text: Please enter your email id
+  utter_ask_user_name:
+  - text: Please enter your name
+  utter_bot_actions:
+  - text: I can help you place new orders and get device information and recommendations. What can I do for you?
+  utter_default:
+  - text: I'm sorry. I did not understand.
+  utter_device_info:
+  - text: 'Here is the device info for {devices_list}: ----------- '
+  utter_goodbye:
+  - text: I hope I have helped you. Goodbye!
+  utter_greet:
+  - text: Hello! I am MI Bot
+  utter_happy:
+  - text: Great carry on!
+  utter_has_user_decided:
+  - text: Have you decided on a device to purchase?
+  utter_show_recs:
+  - text: 'Here are some recommendations for the specifications: budget: {budget}; camera: {camera} '
+  utter_suggest:
+  - text: Sure! I can show you some suggestions.
+  utter_welcome:
+  - text: You are welcome!
+actions:
+- utter_added_to_cart
+- utter_any_other_help
+- utter_ask_budget
+- utter_ask_camera
+- utter_ask_device_info_name
+- utter_ask_devices_list
+- utter_ask_email_id
+- utter_ask_user_name
+- utter_bot_actions
+- utter_default
+- utter_device_info
+- utter_goodbye
+- utter_greet
+- utter_happy
+- utter_has_user_decided
+- utter_show_recs
+- utter_suggest
+- utter_welcome
+- validate_user_name
+- validate_email_id
+- validate_devices_list
+- validate_budget
+- validate_camera
+forms:
+  suggestions_form:
+    budget:
+    - type: from_entity
+      entity: budget
+    camera:
+    - type: from_entity
+      entity: camera
+  user_info_form:
+    user_name:
+    - type: from_entity
+      entity: user_name
+    email_id:
+    - type: from_entity
+      entity: email_id
+    devices_list:
+    - type: from_entity
+      entity: devices_list
+e2e_actions: []
+version: '2.0'

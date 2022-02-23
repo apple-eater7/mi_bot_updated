@@ -1,0 +1,52 @@
+[
+  {
+    "tag_name": "entity",
+    "ids_to_tags": {
+      "1": "B-budget",
+      "2": "I-budget",
+      "3": "L-budget",
+      "4": "U-budget",
+      "5": "B-camera",
+      "6": "I-camera",
+      "7": "L-camera",
+      "8": "U-camera",
+      "9": "B-devices_list",
+      "10": "I-devices_list",
+      "11": "L-devices_list",
+      "12": "U-devices_list",
+      "13": "B-email_id",
+      "14": "I-email_id",
+      "15": "L-email_id",
+      "16": "U-email_id",
+      "17": "B-user_name",
+      "18": "I-user_name",
+      "19": "L-user_name",
+      "20": "U-user_name",
+      "0": "O"
+    },
+    "tags_to_ids": {
+      "B-budget": 1,
+      "I-budget": 2,
+      "L-budget": 3,
+      "U-budget": 4,
+      "B-camera": 5,
+      "I-camera": 6,
+      "L-camera": 7,
+      "U-camera": 8,
+      "B-devices_list": 9,
+      "I-devices_list": 10,
+      "L-devices_list": 11,
+      "U-devices_list": 12,
+      "B-email_id": 13,
+      "I-email_id": 14,
+      "L-email_id": 15,
+      "U-email_id": 16,
+      "B-user_name": 17,
+      "I-user_name": 18,
+      "L-user_name": 19,
+      "U-user_name": 20,
+      "O": 0
+    },
+    "num_tags": 21
+  }
+]
